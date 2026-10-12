@@ -1,0 +1,5 @@
+simonlexicon@MBP-Simon g62-lecture-tailwindcss % node -v
+v24.21.0
+simonlexicon@MBP-Simon g62-lecture-tailwindcss % npm -v
+11.19.0
+simonlexicon@MBP-Simon g62-lecture-tailwindcss % npm install tailwindcss @tailwindcss/cli
