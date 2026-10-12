@@ -3,3 +3,12 @@ v24.21.0
 simonlexicon@MBP-Simon g62-lecture-tailwindcss % npm -v
 11.19.0
 simonlexicon@MBP-Simon g62-lecture-tailwindcss % npm install tailwindcss @tailwindcss/cli
+
+simonlexicon@MBP-Simon g62-lecture-tailwindcss % npx @tailwindcss/cli -i ./input.css -o ./output.css --watch
+≈ tailwindcss v4.3.3
+
+Done in 33ms
+...
+
+
+CTRL+C to Exit Watch
