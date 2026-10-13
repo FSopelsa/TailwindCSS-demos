@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS — Exercises 1–4</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <main class="mx-auto max-w-3xl space-y-12 px-4 py-12 sm:px-8">
+        <header>
+            <p class="text-sm font-semibold text-blue-600">Tailwind CSS Practice</p>
+            <p class="mt-2 text-gray-600">Exercises 1–4</p>
+        </header>
+
+        <!-- Exercise 1: Typography & Spacing -->
+        <section id="ex-1" aria-labelledby="typography-heading" class="space-y-4 rounded-lg border border-gray-200 bg-white p-6">
+            <p class="text-sm text-gray-500">1. Typography &amp; Spacing</p>
+            <h1 id="typography-heading" class="text-4xl font-bold">Welcome to Tailwind CSS</h1>
+            <h2 class="text-xl font-semibold">Small utilities, clear design</h2>
+            <p class="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo at lorem tincidunt tristique. Donec vel sem ut arcu consequat tincidunt.</p>
+            <p class="leading-relaxed">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
+        </section>
+
+        <!-- Exercise 2: Colorful Alert Boxes -->
+        <section id="ex-2" aria-labelledby="alerts-heading" class="space-y-4">
+            <h2 id="alerts-heading" class="text-2xl font-bold">2. Colorful Alert Boxes</h2>
+            <div class="rounded-lg border border-green-300 bg-green-100 p-4 text-green-900">
+                <span class="font-bold">Success:</span> Your changes have been saved.
+            </div>
+            <div class="rounded-lg border border-yellow-300 bg-yellow-100 p-4 text-yellow-900">
+                <span class="font-bold">Warning:</span> Please review your details before continuing.
+            </div>
+            <div class="rounded-lg border border-red-300 bg-red-100 p-4 text-red-900">
+                <span class="font-bold">Danger:</span> Something went wrong. Please try again.
+            </div>
+        </section>
+
+        <!-- Exercise 3: Simple Card with Shadow -->
+        <section id="ex-3" aria-labelledby="card-heading" class="space-y-4">
+            <h2 id="card-heading" class="text-2xl font-bold">3. Simple Card with Shadow</h2>
+            <article class="mx-auto max-w-sm space-y-4 rounded-lg bg-white p-6 shadow-md">
+                <h3 class="text-xl font-semibold">Discover Tailwind CSS</h3>
+                <p class="leading-relaxed text-gray-600">Build a simple card using utilities for width, spacing, color, and shadow.</p>
+                <button type="button" class="rounded-lg bg-blue-600 px-4 py-2 text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Read More</button>
+            </article>
+        </section>
+
+        <!-- Exercise 4: Circular Profile Badge -->
+        <section id="ex-4" aria-labelledby="profile-heading" class="space-y-4">
+            <h2 id="profile-heading" class="text-2xl font-bold">4. Circular Profile Badge</h2>
+            <div class="flex items-center gap-4 rounded-lg border border-gray-200 bg-white p-4">
+                <img
+                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' fill='%23dbeafe'/%3E%3Ccircle cx='24' cy='17' r='9' fill='%232563eb'/%3E%3Cpath d='M7 48v-5a17 17 0 0 1 34 0v5' fill='%232563eb'/%3E%3C/svg%3E"
+                    alt="Illustrated avatar of Alex Morgan"
+                    width="48"
+                    height="48"
+                    class="h-12 w-12 shrink-0 rounded-full"
+                >
+                <div>
+                    <h3 class="font-semibold">Alex Morgan</h3>
+                    <p class="text-sm text-gray-600">Frontend Developer</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
